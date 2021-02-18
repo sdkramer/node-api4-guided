@@ -4,10 +4,11 @@ const shoutsModel = require("./shouts-model")
 const router = express.Router()
 
 router.get("/", async (req, res, next) => {
-	const data
+	// const data
 	// shoutsModel.find()
 	// 	.then((data) => res.status(200).json(data))
 	// 	.catch((err) => next(err))
+	es.status(200).json({msg: "shouts"})
 })
 
 
